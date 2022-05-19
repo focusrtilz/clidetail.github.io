@@ -18,7 +18,7 @@ A single __`ls`__ command without option __`-a`__ is not allowed to see the hidd
 
 ### Version
 GNU coreutils 8.32
-sss
+
 ### Examples
 Here are two examples __`ls`__ and __`ls -a`__.
 
