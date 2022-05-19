@@ -2,7 +2,8 @@
 title: CLIDetail
 paginate: 1
 permalink: pretty
-
+url: https://clidetail.com
+root: /
 collections:
   manuals:
     output: true
