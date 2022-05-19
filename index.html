@@ -1,0 +1,22 @@
+---
+layout: default
+title: Home
+---
+
+<div class="posts">
+  <article class="post">
+    <h3 class="post-title">
+        Command Manual List
+      </a>
+    </h3>
+    {% for manual in site.manuals %}
+    <ul>
+      <li class="post-title"s>
+        <a href="{{ manual.url | relative_url }}">
+          {{ manual.title }}
+        </a>
+      </li>
+    </ul>
+    {% endfor %}
+  </article>
+</div>
