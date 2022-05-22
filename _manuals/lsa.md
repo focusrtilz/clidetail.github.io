@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "ls a - Commands Manual"
+title:  "ls -a Commands Manual"
 ---
 ### Scenario
 When using a command line interface of linux machine, we use command __`ls`__ to list directory contents.
