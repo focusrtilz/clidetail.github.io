@@ -2,6 +2,15 @@
 //
 // Styles for managing the structural hierarchy of the site.
 
+.logo {
+  width: 90px;
+  float: left;
+  bottom: var(--spacer-2);
+  margin-top: var(--spacer);
+  margin-right: var(--spacer);
+  position: relative;
+}
+
 .container {
   max-width: 45rem;
   padding-left: var(--spacer-2);

@@ -6,10 +6,12 @@
   padding-top: var(--spacer);
   padding-bottom: var(--spacer);
   margin-bottom: var(--spacer-3);
+  margin-top: var(--spacer-3);
 }
 
 .masthead-title {
   margin-bottom: 0;
+  margin-top: var(--spacer-2);
 
   a {
     color: inherit;
