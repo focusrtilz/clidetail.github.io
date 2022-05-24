@@ -1,7 +1,8 @@
 ---
 layout: manual
-title:  "ls -a Commands Manual"
+title:  "ls -a BSD Commands Manual"
 ---
+
 ### Scenario
 When using a command line interface of linux machine, we use command __`ls`__ to list directory contents.
 
@@ -17,7 +18,7 @@ In linux system, if the name of a directory or a file begins with a dot (.). Thi
 A single __`ls`__ command without option __`-a`__ is not allowed to see the hidden files or directories.
 
 ### Version
-GNU coreutils 8.32
+Mac (BSD) command line utilities
 
 ### Examples
 Here are two examples __`ls`__ and __`ls -a`__.
