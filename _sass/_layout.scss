@@ -23,3 +23,22 @@ footer {
   margin-top: var(--spacer-3);
   margin-bottom: var(--spacer-3);
 }
+
+.float{
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #5c5c5c;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 17px;
+  box-shadow: 2px 2px 3px #999;
+  text-decoration: none;
+}
+
+.my-float{
+	margin-top:22px;
+}
