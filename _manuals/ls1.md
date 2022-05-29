@@ -20,7 +20,7 @@ Option __`-1`__ can also be used when combining with sort-related options such a
 Mac (BSD) command line utilities
 
 ### Examples
-Here are three examples __`ls -1`__, __`ls -S1`__.
+Here are two examples __`ls -1`__, __`ls -S1`__.
 
 - __`ls -1`__ Force output to be one entry per line.
 
