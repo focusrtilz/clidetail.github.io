@@ -99,7 +99,7 @@ Here are two examples __`ls -l`__, __`chmod 4755`__.
 - __`ls -l`__ List the `ACL` of directory `test_chmod`
 
 ```bash
-$ls - l
+$ls -l
 drwxr-xr-x   2 user  staff   64 May 29 15:20 test_chmod
 ```
 
