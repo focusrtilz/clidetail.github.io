@@ -96,14 +96,14 @@ Mac (BSD) command line utilities
 ### Examples
 Here are two examples __`ls -l`__, __`chmod 4755`__.
 
-- __`ls -l`__ List the `ACL` of directory `test_chmod`
+- __`ls -l`__ List the `permission settings` of directory `test_chmod`
 
 ```bash
 $ls -l
 drwxr-xr-x   2 user  staff   64 May 29 15:20 test_chmod
 ```
 
-- __`chmod 4755 test_chmod`__ Update the `ACL` with the setting of `uid`.
+- __`chmod 4755 test_chmod`__ Update the `permission settings` with the setting of `uid`.
 
 ```bash
 $chmod 4755 test_chmod
