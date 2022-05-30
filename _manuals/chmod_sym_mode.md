@@ -19,17 +19,17 @@ Modes may be `absolute` or `symbolic`.The symbolic mode is described by a simple
 ### Detail Explain
 
 The grammar is simple.
-__`Who (who)`__ __`op (has/doesn't has)`__  __`perm (permission)`__.
+__`Who`__ (who) __`op `__(has/doesn't has)  __`perm`__ (permission).
 
-The __`who`__ symbols are __`u (user), g (group), o (others) and a (all, equivalent to ugo)`__.
+The __`who`__ symbols are __`u`__ (user), __`g`__ (group), __`o`__ (others) and __`a`__ (all, equivalent to ugo).
 
-The __`op`__ symbos are __`+, - and =`__. 
+The __`op`__ symbos are __`+`__, __`-`__ and __`=`__. 
 
 __`+`__: Set or change permission if specified.
 __`-`__: Clear the specified permission.
 __`=`__: Reset permission with specified values. This op clears all permissions before setting the new ones.
 
-The __`perm`__ (permission) symbols are __`r (read), s (set uid or gid), t (sticky), w (write), x (execute), X (execute, if the entry is a directory), u (the user permission), g (the group permission) and o (the other permission)`__.
+The __`perm`__ (permission) symbols are __`r`__ (read), __`s`__ (set uid or gid), __`t`__ (sticky), __`w`__ (write), __`x`__ (execute), __`X`__ (execute, if the entry is a directory), __`u`__ (the user permission), __`g`__ (the group permission) and __`o`__ (the other permission).
 
 Now let's look at some examples.
 
