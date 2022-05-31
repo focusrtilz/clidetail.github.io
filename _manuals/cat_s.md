@@ -22,7 +22,7 @@ Sometimes, when using option __`-s`__, none of the empty lines are squeezed. Thi
 Mac (BSD) command line utilities
 
 ### Examples
-Here is the example of __`ls -sn`__.
+Here is the example of __`cat -sn`__.
 
 - Let's create a file (file1.sh) for testing option __`-s`__.
 
@@ -36,10 +36,10 @@ Here is the example of __`ls -sn`__.
 6 echo "file1"
 ```
 
-- __`ls -sn`__ Squeeze the empty lines to one line. Option __`-n`__ helps to number the output lines.
+- __`cat -sn`__ Squeeze the empty lines to one line. Option __`-n`__ helps to number the output lines.
 
 ```bash
-$ls -sn file1.sh 
+$cat -sn file1.sh 
      1	echo "file1"
      2	
      3		
