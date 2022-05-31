@@ -4,7 +4,7 @@ title:  "ls -r BSD Commands Manual"
 ---
 
 ### Scenario
-When using a command line interface of linux machine, we use command __`ls`__ to list directory contents.
+When using a command line interface of mac machine, we use command __`ls`__ to list directory contents.
 
 ### Options `-r` for `ls` 
 __r__ is the abbreviation of __reverse__.
