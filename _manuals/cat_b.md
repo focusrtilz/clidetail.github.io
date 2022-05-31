@@ -16,7 +16,7 @@ Number the non-blank output lines, starting at 1.
 ### Detail Explain
 This option ignores the blank output lines and delivers a neat print out. However, the definition of __`black`__ need to be addressed here. 
 
-Sometimes, when using option __`-b`__, you see a __`blank`__ line with a line number at the very beginning. This is because there is still `something` in the line. It could be a __`space`__ or a __`tab`__. They can't be seen by human but they can be seen by the machines. So it's not completely blank.
+Sometimes, when using option __`-b`__, you still see a __`blank`__ line with a line number at the very beginning. This is because there is still `something` in the line. It could be a __`space`__ or a __`tab`__. They can't be seen by human but they can be seen by the machines. So it's not completely blank.
 
 ### Version
 Mac (BSD) command line utilities
