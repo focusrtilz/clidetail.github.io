@@ -4,7 +4,7 @@ title:  "ls -C -1 option override each other - BSD Commands Manual"
 ---
 
 ### Scenario
-When using a command line interface of linux machine, we use command __`ls`__ to list directory contents.
+When using a command line interface of mac machine, we use command __`ls`__ to list directory contents.
 
 ### Options `-C` `-1`for `ls` 
 __`C`__ is the abbreviation of __`column`__. It forces multi-column output; this is the default when output is to a terminal.
