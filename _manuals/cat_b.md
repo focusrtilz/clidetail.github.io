@@ -22,7 +22,7 @@ Sometimes, when using option __`-b`__, you still see a __`blank`__ line with a l
 Mac (BSD) command line utilities
 
 ### Examples
-Here is the example of __`ls -b`__.
+Here is the example of __`cat -b`__.
 
 - Let's create a file (file1.sh) for testing option __`-b`__.
 
@@ -36,10 +36,10 @@ Here is the example of __`ls -b`__.
 6 echo "file1"
 ```
 
-- __`ls -b`__ Number the non-blank output lines, starting at 1.
+- __`cat -b`__ Number the non-blank output lines, starting at 1.
 
 ```bash
-$ls -b file1.sh 
+$cat -b file1.sh 
      1	echo "file1"
 
      2		
