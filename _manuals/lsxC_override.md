@@ -4,7 +4,7 @@ title:  "ls -x -C option override each other - BSD Commands Manual"
 ---
 
 ### Scenario
-When using a command line interface of linux machine, we use command __`ls`__ to list directory contents.
+When using a command line interface of mac machine, we use command __`ls`__ to list directory contents.
 
 ### Options `-x` `-C`for `ls` 
 __`x`__ is the abbreviation of __`across`__. The multi-column output is produced with entries sorted across, rather than down
