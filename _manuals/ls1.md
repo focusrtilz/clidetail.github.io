@@ -4,7 +4,7 @@ title:  "ls -1 BSD Commands Manual"
 ---
 
 ### Scenario
-When using a command line interface of linux machine, we use command __`ls`__ to list directory contents.
+When using a command line interface of mac machine, we use command __`ls`__ to list directory contents.
 
 ### Options `-1` for `ls` 
 __`1`__ is the numeric digit __`one`__.
