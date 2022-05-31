@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "sudo -k - System Manager's Manual"
+title:  "sudo -k [lowercase K] - System Manager's Manual"
 ---
 ###### tags: `sudo`
 
