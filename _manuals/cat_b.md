@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "cat -b BSD Commands Manual"
+title:  "cat -b - BSD Commands Manual"
 ---
 ###### tags: `cat`
 
