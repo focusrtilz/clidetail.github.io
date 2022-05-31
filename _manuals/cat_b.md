@@ -7,7 +7,7 @@ title:  "cat -b BSD Commands Manual"
 ### Scenario
 When using a command line interface of mac machine, we use command __`cat`__ to look inside a file.
 
-### Options `-b` for `ls` 
+### Options `-b` for `cat` 
 __`b`__ is the abbreviation of __`blank`__.
 
 ### Manpage Description
