@@ -4,7 +4,7 @@ title:  "ls -A BSD Commands Manual"
 ---
 
 ### Scenario
-When using a command line interface of linux machine, we use command __`ls`__ to list directory contents.
+When using a command line interface of mac machine, we use command __`ls`__ to list directory contents.
 
 ### Options `-A` for `ls` 
 __A__ is the abbreviation of __ALL__.
