@@ -1,8 +1,8 @@
 ---
 layout: manual
 title:  "mkdir -m - BSD Commands Manual"
+tags: "mkdir"
 ---
-###### tags: `mkdir`
 
 ### Scenario
 When making directories, we use command __`mkdir`__

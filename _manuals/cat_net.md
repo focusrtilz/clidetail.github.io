@@ -1,8 +1,8 @@
 ---
 layout: manual
 title:  "cat -net - BSD Commands Manual"
+tags: cat
 ---
-###### tags: `cat`
 
 ### Scenario
 When using a command line interface of mac machine, we use command __`cat`__ to look inside a file.

@@ -1,8 +1,8 @@
 ---
 layout: manual
 title:  "grep -e | grep -v - BSD Commands Manual"
+tags: "grep"
 ---
-###### tags: `grep`
 
 ### Scenario
 The __`grep`__ utility searches any given input files, selecting lines that match one or more patterns. This tool is super helpful when we need to look into system logs, trouble shooting error/bugs or conduct security forensics. 

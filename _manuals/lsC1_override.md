@@ -1,6 +1,7 @@
 ---
 layout: manual
 title:  "ls -C -1 option override each other - BSD Commands Manual"
+tags: "ls"
 ---
 
 ### Scenario

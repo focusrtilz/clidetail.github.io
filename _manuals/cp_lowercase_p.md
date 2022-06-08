@@ -1,8 +1,8 @@
 ---
 layout: manual
 title:  "cp -p - BSD General Commands Manual "
+tags: "cp"
 ---
-###### tags: `cp`
 
 ### Scenario
 The __`cp`__ comand helps us to copy files or directories in various ways. 

@@ -1,8 +1,8 @@
 ---
 layout: manual
 title:  "cd [hyphen-minus] - POSIX Programmer's Manual "
+tags: "cd"
 ---
-###### tags: `cd`
 
 ### Scenario
 The __`cd`__ comand helps us to navigate/change our working directory. This is a must-use command for the command line users. 

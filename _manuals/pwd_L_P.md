@@ -1,8 +1,8 @@
 ---
 layout: manual
 title:  "pwd -L -P - BSD General Commands Manual "
+tags: "pwd"
 ---
-###### tags: `pwd`
 
 ### Scenario
 The __`pwd`__ comand helps us to know our present working directory and whether it is a physical directory or a symbolic link. 

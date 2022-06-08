@@ -1,8 +1,8 @@
 ---
 layout: manual
 title:  "sudo -K [uppercase K] - System Manager's Manual"
+tags: "sudo"
 ---
-###### tags: `sudo`
 
 ### Scenario
 __`sudo`__ allows a permitted user to execute a command as the __`superuser`__ or __`another user`__.

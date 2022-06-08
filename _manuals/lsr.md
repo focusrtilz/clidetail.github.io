@@ -1,6 +1,7 @@
 ---
 layout: manual
 title:  "ls -r BSD Commands Manual"
+tags: "ls"
 ---
 
 ### Scenario

@@ -1,8 +1,8 @@
 ---
 layout: manual
 title:  "mv -vi - BSD Commands Manual"
+tags: "mv"
 ---
-###### tags: `mv`
 
 ### Scenario
 When renaming a file or moving a file to specific direcoty. We use command __`mv`__

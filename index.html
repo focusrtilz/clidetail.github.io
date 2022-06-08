@@ -5,18 +5,26 @@ title: Home
 
 <div class="posts">
   <article class="post">
-    <h3 class="post-title">
+    <h2 class="post-title">
         Command Manual List
       </a>
-    </h3>
-    {% for manual in site.manuals %}
-    <ul>
-      <li class="post-title"s>
-        <a href="{{ manual.url | relative_url }}">
-          {{ manual.title }}
-        </a>
-      </li>
-    </ul>
+    </h2>
+
+
+    {% assign tags =  site.manuals | map: 'tags' | join: ','  | split: ',' | uniq %}
+    {% for tag in tags %}
+      <h3> {{ tag }} </h3>
+      <ul>
+        {% for manual in site.manuals %}
+            {% if manual.tags contains tag %}
+              <li class="post-title"s>
+                <a href="{{ manual.url | relative_url }}">
+                  {{ manual.title }}
+                </a>
+              </li>
+            {% endif %}
+        {% endfor %}
+      </ul>
     {% endfor %}
   </article>
 </div>

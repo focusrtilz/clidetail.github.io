@@ -1,8 +1,8 @@
 ---
 layout: manual
 title:  "chmod +a [ACL Manipulation] - BSD Commands Manual"
+tags: "chmod"
 ---
-###### tags: `chmod`
 
 ### Scenario
 When specifying `whom` (__`owner, group, others`__) to have what `permission` (__`read, write, execute`__), we use command __`chmod`__.
