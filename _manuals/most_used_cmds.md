@@ -11,7 +11,7 @@ We notice that despite there are manpages for users to look up the usage of comm
 
 When we need to concatenate and print files we can use `cat` command. We now provide explanations of option [-b](https://clidetail.com/manuals/cat_b/), [-net](https://clidetail.com/manuals/cat_net/), [-s](https://clidetail.com/manuals/cat_s/). And if we'd like to change our working directory, we have explanation of option [-](https://clidetail.com/manuals/cd_hyphen/) which is [hyphen-minus](https://clidetail.com/manuals/cd_hyphen/) for command `cd`. 
 
-It is important to set or change the permissions of files. We now provide explanation of [absolute mode](https://clidetail.com/manuals/chmod_abs_mode/) and [symbolic mode](https://clidetail.com/manuals/chmod_sym_mode/) for command `chmod`. We also provide explanation of[ACL Manipulation](https://clidetail.com/manuals/chmod_plus_a/) which is rarely discussed for most users.
+It is important to set or change the permissions of files. We now provide explanation of [absolute mode](https://clidetail.com/manuals/chmod_abs_mode/) and [symbolic mode](https://clidetail.com/manuals/chmod_sym_mode/) for command `chmod`. We also provide explanation of [ACL Manipulation](https://clidetail.com/manuals/chmod_plus_a/) which is rarely discussed for most users.
 
 Then, if we want to copy files, we can use command `cp`. What surprised us is that this command has a protection mechanism when copying file. Check explanation of option [-p](https://clidetail.com/manuals/cp_lowercase_p/) for more details!
 
