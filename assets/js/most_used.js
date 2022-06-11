@@ -1,4 +1,3 @@
-
 var a_elems = document.body.getElementsByTagName("a");
 var related_articles = document.querySelectorAll("li[class='post-title']")
 var url_list = []
@@ -13,10 +12,11 @@ for (let index = 0; index < a_elems.length; index++) {
 
 for (let index = 0; index < related_articles.length; index++) {
     const element = related_articles[index].getElementsByTagName("a")[0];
-    post_url_list.push(element.getAttribute("href"))
+    var post_url = element.getAttribute("href").split("manuals")[1]
+    post_url_list.push(post_url)
 }
 
-var url_set = new Set
+var url_set = new Set();
 for (let index = 0; index < post_url_list.length; index++) {
     const relate_url = post_url_list[index];
 
@@ -27,12 +27,12 @@ for (let index = 0; index < post_url_list.length; index++) {
     });
 }
 
+
 const url_arr = Array.from(url_set)
 for (let index = 0; index < related_articles.length; index++) {
     const element = related_articles[index]
 
-    if (!url_arr.includes(element.getElementsByTagName("a")[0].getAttribute("href"))){
-        // console.log(element)
+    if (!url_arr.includes(element.getElementsByTagName("a")[0].getAttribute("href").split("manuals")[1])){
         element.remove()
     }
 }

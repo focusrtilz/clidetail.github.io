@@ -20,10 +20,8 @@ layout: default
     </li>
   {% endif %}
 
-  {% assign article_num = 0 %}
   {% for manual in site.manuals %}
   {% if manual.tags == page.tags and manual.title != page.title %}
-    {% assign article_num = article_num | plus:1 %}
     <li class="post-title"s>
       <a href="{{ manual.url | relative_url }}">
         {{ manual.title }}
@@ -34,13 +32,13 @@ layout: default
 
   {% if page.tags contains "most_used" %}
     {% for manual in site.manuals %}
-      <li class="post-title"s>
+      <li class="post-title">
         <a href="{{ manual.url | relative_url }}">
           {{ manual.title }}
         </a>
       </li>
     {% endfor %}
-    <script src="/assets/js/most_used.js"></script>
+    <script src="{{ '/assets/js/most_used.js' | relative_url }}"></script>
   {% endif %}
 
 </article>
