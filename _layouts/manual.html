@@ -7,6 +7,18 @@ layout: default
   <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
   <h6>tags: <code class="language-plaintext highlighter-rouge">{{page.tags}}</code></h6>
   {{ content }}
+  <div class="line"></div>
+  <h3>Related Article</h3>
+
+  {% for manual in site.manuals %}
+  {% if manual.tags == page.tags and manual.title != page.title %}
+    <li class="post-title"s>
+      <a href="{{ manual.url | relative_url }}">
+        {{ manual.title }}
+      </a>
+    </li>
+  {% endif %}
+  {% endfor %}
 </article>
 <a href="{{ site.baseurl }}/" title="Home" class="float">
   <span class="material-symbols-outlined">home</span>

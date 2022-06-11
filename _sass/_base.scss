@@ -104,11 +104,17 @@ $new-shadow-active: 0px 0px 10px 6px rgba(0,0,0,0.1);
   }
 }
 
-
 .twitter:hover {
   background: #1da1f2;
 }
 
 .github:hover {
   background: black;
+}
+
+.line{
+  margin-top: 46px;
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #212529;
 }
