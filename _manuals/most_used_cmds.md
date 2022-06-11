@@ -25,5 +25,7 @@ It is also important to know which directory we're currently at! We can use comm
 
 We sometimes need to execute with higher privileges. We can use command `sudo` for this! See how we can use option [-k](https://clidetail.com/manuals/sudo_k/) and option [-K](https://clidetail.com/manuals/sudo_uppercase_k/) to secure our machine!
 
+And when we need to display last parts of files. We can not only display the last lines, but also, last bytes. See how we can use command __`tail`__ with option [-c](https://clidetail.com/manuals/tail_c/) to achieve this goal.
+
 ##### keywords: bsd, linux, command line, cli, hack, cat, cd, chmod, cp, grep, ls, mkdir, pwd, sudo, help_world_a_better_place
 
