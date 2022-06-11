@@ -10,8 +10,20 @@ layout: default
   <div class="line"></div>
   <h3>Related Article</h3>
 
+
+  {% if page.tags contains "most_used" %}
+  {% else %}
+    <li class="post-title"s>
+      <a href="/manuals/most_used_cmds/">
+        Most used bsd/linux commands of all time
+      </a>
+    </li>
+  {% endif %}
+
+  {% assign article_num = 0 %}
   {% for manual in site.manuals %}
   {% if manual.tags == page.tags and manual.title != page.title %}
+    {% assign article_num = article_num | plus:1 %}
     <li class="post-title"s>
       <a href="{{ manual.url | relative_url }}">
         {{ manual.title }}
@@ -19,6 +31,18 @@ layout: default
     </li>
   {% endif %}
   {% endfor %}
+
+  {% if page.tags contains "most_used" %}
+    {% for manual in site.manuals %}
+      <li class="post-title"s>
+        <a href="{{ manual.url | relative_url }}">
+          {{ manual.title }}
+        </a>
+      </li>
+    {% endfor %}
+    <script src="/assets/js/most_used.js"></script>
+  {% endif %}
+
 </article>
 <a href="{{ site.baseurl }}/" title="Home" class="float">
   <span class="material-symbols-outlined">home</span>
