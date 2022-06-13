@@ -5,7 +5,7 @@ tags: history
 ---
 
 ### Scenario
-When we need to check the manual for commands, we use command __`man`__ to do the work.
+When we need to check the typed commands in the system, we use command __`history`__ to do the work.
 
 ### Options `-f` for `history` 
  __`f`__ is the abbreviation of __`full`__ time format.
