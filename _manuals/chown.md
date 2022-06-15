@@ -8,7 +8,7 @@ tags: chown
 When we need to change the owner or group of files or directories, we use command __`chown`__ to do the work.
 
 ### Command `chown` 
- __`chown`__ is the stands for __`change owner`__.
+ __`chown`__ stands for __`change owner`__.
 
 ### Manpage Description
 The chown utility changes the __`user ID`__ and/or __`the group ID`__ of the specified files.
