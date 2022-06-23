@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "cd [hyphen-minus] || cd - equals to cd $OLDPWD "
+title:  "cd [hyphen-minus] || cd - equals to cd $OLDPWD || change to previous working directory"
 tags: "cd"
 ---
 
