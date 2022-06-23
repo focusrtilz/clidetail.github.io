@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "chmod +a [ACL Manipulation] - BSD Commands Manual"
+title:  "chmod +a [ACL Manipulation] || Another permission control machenism"
 tags: "chmod"
 ---
 
