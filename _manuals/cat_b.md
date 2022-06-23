@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "cat -b || Clear definition of blank when using option -b of command cat"
+title:  "cat -b || Clear definition of blank when using option -b of command cat || BSD Commands Manual"
 tags: cat
 ---
 
