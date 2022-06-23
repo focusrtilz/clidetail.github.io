@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "cd [hyphen-minus] - POSIX Programmer's Manual "
+title:  "cd [hyphen-minus] || cd - equals to cd $OLDPWD "
 tags: "cd"
 ---
 
