@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "cat -s - BSD Commands Manual"
+title:  "cat -s || Squeeze the empty lines to one line"
 tags: "cat"
 ---
 
