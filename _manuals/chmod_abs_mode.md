@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "chmod [absolute mode] - BSD Commands Manual"
+title:  "chmod [absolute mode] || Change file modes with absolute values"
 tags: "chmod"
 ---
 
