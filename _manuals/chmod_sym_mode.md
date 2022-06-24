@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "chmod [symbolic mode] - BSD Commands Manual"
+title:  "chmod [symbolic mode] || Change file modes with symbolic values"
 tags: "chmod"
 ---
 
