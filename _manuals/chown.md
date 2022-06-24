@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "chown [owner] - BSD System Manager's Manual" 
+title:  "chown [owner] || See how to avoid security issues when using chown" 
 tags: chown
 ---
 
