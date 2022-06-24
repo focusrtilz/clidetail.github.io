@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "cat -net - BSD Commands Manual"
+title:  "cat -net || Printing the none-printing characters (end of line, control-D, tab)"
 tags: cat
 ---
 
