@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "cp -p - BSD General Commands Manual "
+title:  "cp -p || See the built-in protection mechanism of command cp"
 tags: "cp"
 ---
 
