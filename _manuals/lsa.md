@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "ls -a BSD Commands Manual"
+title:  "ls -a | List all hidden entires"
 tags: "ls"
 ---
 
