@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "ls -C -1 option override each other - BSD Commands Manual"
+title:  "ls -C -1 option override each other | Option C (output to the terminal), Option 1 (output not to the terminal)"
 tags: "ls"
 ---
 
