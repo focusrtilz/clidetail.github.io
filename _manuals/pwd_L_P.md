@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "pwd -L -P - BSD General Commands Manual "
+title:  "pwd -L -P | See how we identify if we're working in a symbolic directory"
 tags: "pwd"
 ---
 
