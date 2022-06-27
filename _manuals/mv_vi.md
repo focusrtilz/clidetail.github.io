@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "mv -vi - BSD Commands Manual"
+title:  "mv -vi | See how to move files in a safe way"
 tags: "mv"
 ---
 
