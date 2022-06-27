@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "df -h -H - BSD General Commands Manual" 
+title:  "df -h -H | To display free disk space in computer operating system format or the manufacturer's format" 
 tags: df
 ---
 
