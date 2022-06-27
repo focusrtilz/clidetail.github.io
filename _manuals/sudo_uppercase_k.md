@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "sudo -K [uppercase K] - System Manager's Manual"
+title:  "sudo -K [uppercase K] | Remove user’s cached credential entirely"
 tags: "sudo"
 ---
 
