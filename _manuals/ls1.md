@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "ls -1 BSD Commands Manual"
+title:  "ls -1 | This option helps the parsing job easier"
 tags: "ls"
 ---
 
