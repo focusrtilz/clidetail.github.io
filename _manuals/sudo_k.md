@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "sudo -k [lowercase k] - System Manager's Manual"
+title:  "sudo -k [lowercase k] | Use option -k to ignore triggering the cached credential"
 tags: "sudo"
 ---
 
