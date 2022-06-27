@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "tail -c - BSD Commands Manual"
+title:  "tail -c | To display the last bytes of the file"
 tags: tail
 ---
 
