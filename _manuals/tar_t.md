@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "tar -t - BSD General Commands Manual" 
+title:  "tar -t | List files before extracting" 
 tags: tar
 ---
 
