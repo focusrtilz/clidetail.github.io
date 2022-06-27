@@ -1,6 +1,6 @@
 ---
 layout: manual
-title: "echo - BSD General Commands Manual"
+title: "echo | Combining the use of > or >> to create service logs"
 tags: echo
 ---
 
