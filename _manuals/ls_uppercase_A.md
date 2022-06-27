@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "ls -A BSD Commands Manual"
+title:  "ls -A | List all hidden entries except for . and .."
 tags: "ls"
 ---
 
