@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "ps $$ - BSD General Commands Manual" 
+title:  "ps $$ | Display shell we currently use" 
 tags: ps
 ---
 
