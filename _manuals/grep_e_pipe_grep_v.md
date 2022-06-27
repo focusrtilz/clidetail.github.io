@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "grep -e | grep -v - BSD Commands Manual"
+title:  "grep -e | grep -v || Powerful filtering options"
 tags: "grep"
 ---
 
