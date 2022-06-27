@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "man -P - BSD General Commands Manual " 
+title:  "man -P | Get specific information in man page" 
 tags: man 
 ---
 
