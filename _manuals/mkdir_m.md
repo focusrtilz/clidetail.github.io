@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "mkdir -m - BSD Commands Manual"
+title:  "mkdir -m | Make directories with permission specified"
 tags: "mkdir"
 ---
 
