@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "ls -r BSD Commands Manual"
+title:  "ls -r | Display the results reversely"
 tags: "ls"
 ---
 
