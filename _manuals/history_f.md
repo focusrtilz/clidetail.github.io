@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "history -f - zshbuiltins" 
+title:  "history -f | Combining the use of grep to filter command logs (typed in specific date)." 
 tags: history
 ---
 
