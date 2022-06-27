@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "ls -x -C option override each other - BSD Commands Manual"
+title:  "ls -x -C option override each other | Display the results in different sortings"
 tags: "ls"
 ---
 
