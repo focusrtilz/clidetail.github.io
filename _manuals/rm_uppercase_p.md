@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "rm -P - BSD General Commands Manual "
+title:  "rm -P | The most secure way to wipe out the data"
 tags: rm
 ---
 
