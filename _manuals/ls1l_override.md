@@ -1,6 +1,6 @@
 ---
 layout: manual
-title:  "ls -1 -l | These two options override each other"
+title:  "ls -1 -l override each other | Option l display long format (more info) of entires"
 tags: "ls"
 ---
 
