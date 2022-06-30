@@ -8,6 +8,8 @@ root: /
 collections:
   manuals:
     output: true
+  prerelease:
+    output: true
     
 
 # Gems
