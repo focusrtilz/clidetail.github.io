@@ -8,7 +8,7 @@ tags: statistic
 
 __The commands before `ls`:__ Pipe the result of the given command to `ls`.
 
-| Command | percentage |
+| Command | Percentage |
 |--------|--------|
 | find | 30% |
 | ls | 10% |
