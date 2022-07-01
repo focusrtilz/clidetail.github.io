@@ -1,0 +1,31 @@
+---
+layout: default
+title: List of Commands using Semicolon
+---
+
+<div class="posts">
+  <article class="post">
+    <h2 class="post-title">
+        List of Commands using Semicolon
+      </a>
+    </h2>
+      <ul>
+        {% for statistics_page in site.statistics_semicolon %}
+              <li class="post-title"s>
+                <a href="{{ statistics_page.url | relative_url }}">
+                  {{ statistics_page.title }}
+                </a>
+              </li>
+        {% endfor %}
+      </ul>
+  </article>
+</div>
+<span class="material-symbols-outlined">
+  arrow_back_ios_new
+  </span>
+<a href="javascript:history.back()" title="Back" class="back-float">
+  <span class="material-symbols-outlined">arrow_back_ios_new</span>
+</a>
+<a href="{{ site.baseurl }}/" title="Home" class="home-float">
+    <span class="material-symbols-outlined">home</span>
+  </a>

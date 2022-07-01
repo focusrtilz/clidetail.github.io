@@ -24,7 +24,7 @@ footer {
   margin-bottom: var(--spacer-3);
 }
 
-.float{
+.home-float{
   position: fixed;
   width: 60px;
   height: 60px;
@@ -41,6 +41,19 @@ footer {
   text-decoration: none;
 }
 
-.my-float{
-	margin-top:22px;
+.back-float{
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 120px;
+  background-color: #ffffff;
+  color: rgb(61, 61, 61);
+  border-radius: 50px;
+  border-color: #767676;
+  border-style: solid;
+  text-align: center;
+  padding-top: 16px;
+  box-shadow: 2px 2px 3px #999;
+  text-decoration: none;
 }

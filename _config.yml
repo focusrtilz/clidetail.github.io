@@ -10,6 +10,10 @@ collections:
     output: true
   statistics_pipe:
     output: true
+  statistics_double_pipe:
+    output: true
+  statistics_semicolon:
+    output: true
   prerelease:
     output: true
     
