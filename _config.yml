@@ -8,6 +8,8 @@ root: /
 collections:
   manuals:
     output: true
+  statistics_pipe:
+    output: true
   prerelease:
     output: true
     
