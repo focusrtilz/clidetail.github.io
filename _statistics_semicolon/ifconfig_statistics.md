@@ -1,5 +1,5 @@
 ---
-layout: manual
+layout: statistics
 title:  "ifconfig - Statistics of command combinations using semicolon"
 tags: statistic
 ---

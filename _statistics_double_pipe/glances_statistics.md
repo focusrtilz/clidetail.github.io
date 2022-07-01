@@ -1,5 +1,5 @@
 ---
-layout: manual
+layout: statistics
 title:  "glances - Statistics of command combinations using double pipe"
 tags: statistic
 ---

@@ -1,5 +1,5 @@
 ---
-layout: manual
+layout: statistics
 title:  "rsync - Statistics of command combinations using double pipe"
 tags: statistic
 ---

@@ -1,5 +1,5 @@
 ---
-layout: manual
+layout: statistics
 title:  "apropos - Statistics of command combinations using semicolon"
 tags: statistic
 ---

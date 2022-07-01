@@ -1,5 +1,5 @@
 ---
-layout: manual
+layout: statistics
 title:  "passwd - Statistics of command combinations using pipe"
 tags: statistic
 ---

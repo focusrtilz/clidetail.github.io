@@ -1,5 +1,5 @@
 ---
-layout: manual
+layout: statistics
 title:  "userdel - Statistics of command combinations using pipe"
 tags: statistic
 ---

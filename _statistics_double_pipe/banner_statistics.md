@@ -1,5 +1,5 @@
 ---
-layout: manual
+layout: statistics
 title:  "banner - Statistics of command combinations using double pipe"
 tags: statistic
 ---

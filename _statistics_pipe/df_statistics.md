@@ -1,5 +1,5 @@
 ---
-layout: manual
+layout: statistics
 title:  "df - Statistics of command combinations using pipe"
 tags: statistic
 ---

@@ -1,5 +1,5 @@
 ---
-layout: manual
+layout: statistics
 title:  "grep - Statistics of command combinations using pipe"
 tags: statistic
 ---

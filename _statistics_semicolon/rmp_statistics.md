@@ -1,5 +1,5 @@
 ---
-layout: manual
+layout: statistics
 title:  "rmp - Statistics of command combinations using semicolon"
 tags: statistic
 ---

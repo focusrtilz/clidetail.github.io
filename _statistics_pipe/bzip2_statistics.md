@@ -1,5 +1,5 @@
 ---
-layout: manual
+layout: statistics
 title:  "bzip2 - Statistics of command combinations using pipe"
 tags: statistic
 ---
