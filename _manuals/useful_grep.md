@@ -20,7 +20,7 @@ $ grep "apple" vocabulary.txt
 ```
 $ grep -w "apple" vocabulary.txt
 ```
-- **Using `-i' to search with case insensitive.**
+- **Using `-i` to search with case insensitive.**
  ```
 $ grep -i "apple" vocabulary.txt
 ```
