@@ -1,6 +1,6 @@
 ---
 layout: manual
-title: The list of `mkdir` options with example
+title: The list of mkdir options with example
 tags: mkdir
 ---
 
