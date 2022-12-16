@@ -1,143 +1,116 @@
 ---
 layout: manual
-title:  The list of ls options with example
-tags: ls
+title:  The list of cp options with example
+tags: cp
 ---
 
-This is a list of `ls` options with examples. The examples are generated through an experiment using **chatGPT** to describe the usage of each option. The descriptions of the options are referenced from and can be searched in **manpage**.
+This is a list of `cp` options with examples. The examples are generated through an experiment using **chatGPT** to describe the usage of each option. The descriptions of the options are referenced from and can be searched in **manpage**.
 
 ### Version
 
 Mac BSD General Commands Manual
 
-### Option `-a` or `--all`
+### Option `-a` or `--archive`
 
 #### Description
 
-Include directory entries whose names begin with a dot (‘.’).
+Archive mode. Same as -RpP options. Preserves structure and attributes of files but not directory structure.
 
 #### Example
 
 ```
-$ ls -a
+$ cp -a file1.txt file2.txt
 ```
 
-### Option `-A` or `--almost-all`
+### Option `-f` or `--force`
 
 #### Description
 
-Include directory entries whose names begin with a dot (‘.’) except for . and ...  Automatically set for the super-user unless -I is specified.
+If the destination file cannot be opened, remove it and create a new file, without prompting for confirmation regardless of its permissions.  (The -f option overrides any previous -n option.)
 
 #### Example
 
 ```
-$ ls -A
+$ cp -f file1.txt file2.txt
 ```
 
-### Option `-B` or `--ignore-backups`
+### Option `-i` or `--interactive`
 
 #### Description
 
-Force printing of non-printable characters (as defined by ctype(3) and current locale settings) in file names as \xxx, where xxx is the numeric value of the character in octal.  This option is not defined in IEEE Std 1003.1-2008 (“POSIX.1”).
+Cause cp to write a prompt to the standard error output before copying a file that would overwrite an existing file.  If the response from the standard input begins with the character ‘y’ or ‘Y’, the file copy is attempted.  (The -i option overrides any previous -n option.)
 
 #### Example
 
 ```
-$ ls -B
+$ cp -i file1.txt file2.txt
 ```
 
-### Option `-d` or `--directory`
+### Option `-l` or `--link`
 
 #### Description
 
-Directories are listed as plain files (not searched recursively).
+Create hard links to regular files in a hierarchy instead of copying.
 
 #### Example
 
 ```
-$ ls -d
+$ cp -l file1.txt file2.txt
 ```
 
-### Option `-f` or `--classify`
+### Option `-n` or `--no-clobber`
 
 #### Description
 
-Output is not sorted.  This option turns on -a.  It also negates the effect of the -r, -S and -t options.  As allowed by IEEE Std 1003.1-2008 (“POSIX.1”), this option has no effect on the -d, -l, -R and -s options.
+Do not overwrite an existing file.  (The -n option overrides any previous -f or -i options.)
 
 #### Example
 
 ```
-$ ls -f
+$ cp -n file1.txt file2.txt
 ```
 
-### Option `-F` or `--classify`
+### Option `-p` or `--preserve`
 
 #### Description
 
-Display a slash (‘/’) immediately after each pathname that is a directory, an asterisk (‘*’) after each that is executable, an at sign (‘@’) after each symbolic link, an equals sign (‘=’) after each socket, a percent sign (‘%’) after each whiteout, and a vertical bar (‘|’) after each that is a FIFO.
+Cause cp to preserve the following attributes of each source file in the copy: modification time, access time, file flags, file mode, user ID, and group ID, as allowed by permissions.  Access Control Lists (ACLs) and Extended Attributes (EAs), including resource forks, will also be preserved.
+
+If the user ID and group ID cannot be preserved, no error message is displayed and the exit value is not altered.
+
+If the source file has its set-user-ID bit on and the user ID cannot be preserved, the set-user-ID bit is not preserved in the copy's permissions.
+If the source file has its set-group-ID bit on and the group ID cannot be preserved, the set-group-ID bit is not preserved in the copy's permissions.
+If the source file has both its set-user-ID and set-group-ID bits on, and either the user ID or group ID cannot be preserved, neither the set-user-ID
+nor set-group-ID bits are preserved in the copy's permissions.
 
 #### Example
 
 ```
-$ ls -F
+$ cp -p file1.txt file2.txt
 ```
 
-### Option `-h` or `--human-readable`
+### Option `-s` or `--symbolic-link`
 
 #### Description
 
-When used with the -l option, use unit suffixes: Byte, Kilobyte, Megabyte, Gigabyte, Terabyte and Petabyte in order to reduce the number of digits to four or fewer using base 2 for sizes.  This option is not defined in IEEE Std 1003.1-2008 (“POSIX.1”).
+Create symbolic links to regular files in a hierarchy instead of copying.
 
 #### Example
 
 ```
-$ ls -h
+$ cp -s file1.txt file2.txt
 ```
 
-### Option `-H` or `--dereference-command-line`
+### Option `-R` or `--recursive`
 
 #### Description
 
-Symbolic links on the command line are followed.  This option is assumed if none of the -F, -d, or -l options are specified.
+If source_file designates a directory, cp copies the directory and the entire subtree connected at that point.  If the source_file ends in a /, the contents of the directory are copied rather than the directory itself.  This option also causes symbolic links to be copied, rather than indirected through, and for cp to create special files rather than copying them as normal files.  Created directories have the same mode as the corresponding source directory, unmodified by the process' umask.
+
+Note that cp copies hard linked files as separate files.  If you need to preserve hard links, consider using tar(1), cpio(1), or pax(1) instead.
 
 #### Example
 
 ```
-$ ls -H
-```
-
-### Option `-i` or `--inode`
-
-#### Description
-
-For each file, print the file's file serial number (inode number).
-
-#### Example
-
-```
-$ ls -i
-```
-
-### Option `-l` or `--long`
-
-#### Description
-
-(The lowercase letter “ell”.) List files in the long format, as described in the The Long Format subsection below.
-
-#### Example
-
-```
-$ ls -l
-```
-
-### Option `-L` or `--dereference`
-
-#### Description
-
-Follow all symbolic links to final target and list the file or directory the link references rather than the link itself.  This option cancels the -P option.
-
-#### Exmaple
-
-```
-$ ls -L link1.txt
+$ cp -R dir1 dir2
 ```
