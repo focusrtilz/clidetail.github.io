@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple QR code generator for free</title>
+
+    <link href="style.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="qrcode.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="three">
+        <h1>QR Code Generator</h1>
+    </div>
+    <input id="text" type="text" class="input" value="" />
+
+    <div class="card">
+        <div id="qrcode" style="width:300px; height:300px; margin-top:2rem;"></div>
+        <div class="button-group">
+            <!-- <a class="functions">
+                <i class="fa fa-share" onclick="cloneImg()"></i>
+            </a> -->
+            <a id="qrdl" class="functions" type="button" onclick="qrdl()">
+                <i class="fa fa-download"></i>
+            </a>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var qrcode = new QRCode(document.getElementById("qrcode"), {
+            width: 300,
+            height: 300,
+        });
+
+        function makeCode() {
+            var elText = document.getElementById("text");
+            var qrcodeBox = document.getElementById("qrcode")
+
+            if (!elText.value) {
+                qrcodeBox.style.display = "none";
+                return;
+            }
+            qrcodeBox.style.display = "block";
+            qrcode.makeCode(elText.value);
+        }
+
+        makeCode();
+
+        $("#text").
+            on("change", function () {
+                makeCode();
+            }).
+            on("keydown", function (e) {
+                if (e.keyCode == 13) {
+                    makeCode();
+                }
+            });
+
+        function qrdl() {
+            let qelem = document.querySelector('#qrcode img')
+            let dlink = document.querySelector('#qrdl')
+            let qr = qelem.getAttribute('src');
+            dlink.setAttribute('href', qr);
+            dlink.setAttribute('download', 'qrcode.png');
+            dlink.removeAttribute('hidden');
+        }
+        function cloneImg() {
+            let qelem = document.querySelector('#qrcode img')
+            let dlink = document.querySelector('#qrdl')
+            let qr = qelem.getAttribute('src');
+            let response = fetch(qr);
+            let blob = response.blob()
+            setToClipBoard(blob)
+        }
+    </script>
+</body>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MBLV43GLD2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-MBLV43GLD2');
+  </script>
+
+</html>
